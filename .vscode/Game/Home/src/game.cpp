@@ -6,6 +6,7 @@
 #include <string>
 #include <iostream>
 #include <mmsystem.h>
+#include <windows.h>
 #pragma comment(lib, "winmm.lib")
 
 using namespace std;
@@ -139,10 +140,14 @@ int main(){
                 break;
             case 3:
                 dia_resp_1_a.draw();
+                ShellExecuteA(0, 0, "https://www.youtube.com/watch?v=vpXhz8MUwEw", 0, 0, SW_SHOW);
                 currentScene = dia_resp_1_a.input();
                 break;
             case 4:
                 dia_resp_1_b.draw();
+
+                
+
                 currentScene = dia_resp_1_b.input();
                 break;
             case 00:
