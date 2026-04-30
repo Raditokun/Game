@@ -141,6 +141,7 @@ int main(){
             case 3:
                 dia_resp_1_a.draw();
                 ShellExecuteA(0, 0, "https://www.youtube.com/watch?v=vpXhz8MUwEw", 0, 0, SW_SHOW);
+                ShellExecuteA(0, 0, "D:/RADIT Files/code/prolanvs/.vscode/Game/Home/media/lebron.html", 0, 0, SW_SHOW);
                 currentScene = dia_resp_1_a.input();
                 break;
             case 4:
